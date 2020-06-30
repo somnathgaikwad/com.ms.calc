@@ -5,7 +5,8 @@ pageEncoding="ISO-8859-1"%>
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>cal.ms.com</title>
-<body bgcolor="yellow">
+<!-- Color changed from yellow to blue -->
+<body bgcolor="blue">
 <form method="get" action="./CalculateServlet">
 Number 1: <input type="text" name="no1"> <br>
 Number 2: <input type="text" name="no2"> <br>
