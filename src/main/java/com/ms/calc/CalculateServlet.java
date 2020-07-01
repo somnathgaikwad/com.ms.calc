@@ -29,10 +29,10 @@ public class CalculateServlet extends HttpServlet
 			res=new Calculater().doSub(Integer.parseInt(n1), Integer.parseInt(n2));
 			out.println("Subtraction of "+n1+" and "+ n2 + " is " + res);}
 		else if(opt.equals("multiply")){
-			res=new Calculater().doSub(Integer.parseInt(n1), Integer.parseInt(n2));
+			res=new Calculater().doMul(Integer.parseInt(n1), Integer.parseInt(n2));
 			out.println("Multiplication of "+n1+" and "+ n2 + " is " + res);}
 		else if(opt.equals("division")){
-			res=new Calculater().doSub(Integer.parseInt(n1), Integer.parseInt(n2));
+			res=new Calculater().doDiv(Integer.parseInt(n1), Integer.parseInt(n2));
 			out.println("Division of "+n1+" and "+ n2 + " is " + res);}
 	}	
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
