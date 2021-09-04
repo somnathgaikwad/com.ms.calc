@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class CalculateServlet extends HttpServlet
 {
 	/**
-	 * 
+	 * Comment updated
 	 */
 	private static final long serialVersionUID = 1L;
 	double res;
@@ -22,7 +22,7 @@ public class CalculateServlet extends HttpServlet
 		String n2 = request.getParameter("no2");
 		String opt = request.getParameter("opt");
 		
-		if(opt.equals("Addition")){
+		if(opt.equals("addition")){
 			res=new Calculater().doAdd(Integer.parseInt(n1), Integer.parseInt(n2));
 		out.println("Addition of "+n1+" and "+ n2 + " is " + res);}
 		else if(opt.equals("subtraction")){

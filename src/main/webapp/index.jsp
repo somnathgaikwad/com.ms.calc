@@ -11,7 +11,7 @@ pageEncoding="ISO-8859-1"%>
 Number 1: <input type="text" name="no1"> <br>
 Number 2: <input type="text" name="no2"> <br>
 <select name="opt">
-<option value="Addition"> + </option>
+<option value="addition"> + </option>
 <option value="subtraction"> - </option>
 <option value="multiply"> * </option>
 <option value="division"> / </option>
